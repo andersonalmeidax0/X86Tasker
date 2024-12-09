@@ -8,7 +8,7 @@ Usage:
 The scheduler runs each task, every time you call TASKERwait, the lib save the stack, save the instruction pointer, and jumps to the last instruction of the next task, first restoring the stack of that task.  
 This is a simple non-preemptible scheduler (AKA cooperative scheduler)
 
-Why? It allows you to create multitasking programs in single process O.S (DOS) without the complexity os managing task scheduling.  
+Why use it? It allows you to create multitasking programs in single process O.S (DOS) without the complexity os managing task scheduling.  
    
 
 
