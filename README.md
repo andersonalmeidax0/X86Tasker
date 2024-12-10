@@ -9,12 +9,15 @@ The scheduler runs each task, every time you call TASKERwait, the lib save the s
 This is a simple non-preemptible scheduler (AKA cooperative scheduler), also known as multitasking system.
 
 Why use it? It allows you to create multitasking programs in single process O.S (DOS) without the complexity of managing task scheduling.  
-Can be used in CS classes to explain Operating Systems concepts.   
+Can be used in CS classes to explain Operating Systems concepts.    
+
+Tested on DOS with Borland C 3.0 Compiler.  
    
 # Links: 
 A good article about Multiprocessing, covering processors, cores and also multitasking and threads.
 https://en.wikipedia.org/wiki/Multiprocessing
 
+# How to use in your program:  
 
 ## TASKERcreate(funcptr p)
 Create task  
